@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JPRoutePositionET xmlns="urn:connexionz-co-nz:jp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:connexionz-co-nz:jp JourneyPlanner.xsd">
+  <Content Expires="2015-12-29T21:51:01+13:00" MaxArrivalScope="60" />
+  <Platform PlatformTag="3350" Name="Westfield Riccarton">
+    <Route RouteNo="80" Name="Lincoln/Parklands">
+      <Destination Name="Lincoln">
+        <Trip ETA="16" TripNo="1751" WheelchairAccess="true" />
+      </Destination>
+    </Route>
+    <Route RouteNo="100" Name="Wigram/The Palms">
+      <Destination Name="Halswell">
+        <Trip ETA="22" TripNo="4930" WheelchairAccess="true" />
+        <Trip ETA="48" TripNo="4931" WheelchairAccess="true" />
+      </Destination>
+    </Route>
+    <Route RouteNo="120" Name="Burnside/Spreydon">
+      <Destination Name="Burnside">
+        <Trip ETA="4" TripNo="4069" WheelchairAccess="true" />
+      </Destination>
+    </Route>
+    <Route RouteNo="130" Name="Hei Hei/Avonhead">
+      <Destination Name="Hei Hei &amp; Hornby">
+        <Trip ETA="18" TripNo="3595" WheelchairAccess="true" />
+        <Trip ETA="48" TripNo="3596" WheelchairAccess="true" />
+      </Destination>
+    </Route>
+    <Route RouteNo="140" Name="Russley/Mt Pleasant">
+      <Destination Name="Russley &amp; Hornby">
+        <Trip ETA="22" TripNo="1128" WheelchairAccess="true" />
+      </Destination>
+    </Route>
+    <Route RouteNo="Oc" Name="Orbiter">
+      <Destination Name="Eastgate via University">
+        <Trip ETA="9" TripNo="5191" WheelchairAccess="true" />
+        <Trip ETA="39" TripNo="5192" WheelchairAccess="true" />
+      </Destination>
+    </Route>
+    <Route RouteNo="P" Name="Purple Line">
+      <Destination Name="Airport via University">
+        <Trip ETA="14" TripNo="2283" WheelchairAccess="true" />
+        <Trip ETA="44" TripNo="2284" WheelchairAccess="true" />
+      </Destination>
+    </Route>
+    <Route RouteNo="Y" Name="Yellow Line">
+      <Destination Name="Hornby">
+        <Trip ETA="1" TripNo="3038" WheelchairAccess="true" />
+        <Trip ETA="57" TripNo="3040" WheelchairAccess="true" />
+      </Destination>
+      <Destination Name="Rolleston via Hornby">
+        <Trip ETA="27" TripNo="3039" WheelchairAccess="true" />
+      </Destination>
+    </Route>
+  </Platform>
+</JPRoutePositionET>

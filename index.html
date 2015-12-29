@@ -1,0 +1,54 @@
+
+<html lang="en">
+  <head>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/css/styles.css" rel="stylesheet" type="text/css"/>
+    <script src="/js/jquery-2.1.4.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/helpers.js"></script>
+    <script src="/js/busdisplay.js"></script>
+    <title>Christchurch Bus Display</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header"><a href="/" class="navbar-brand">Christchurch Bus Display</a></div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle">Education<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/?platform=38761">University of Canterbury (Riccarton Road - Going East)</a></li>
+                <li><a href="/?platform=39687">University of Canterbury (Ilam Road - Going West)</a></li>
+                <li><a href="/?platform=38719">University of Canterbury (Ilam Road - Going East)</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle">Shopping<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/?platform=53308">Westfield Riccarton (Going East)</a></li>
+                <li><a href="/?platform=53298">Westfield Riccarton (Going West)</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle">Other<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/">asd</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container body-content">
+      <h1 class="platform-name">Please Wait...</h1>
+      <div class="bus-timetable">
+        <table class="table table-striped">
+          <thead>
+            <th>Route</th>
+            <th>Destination</th>
+            <th>ETA</th>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
